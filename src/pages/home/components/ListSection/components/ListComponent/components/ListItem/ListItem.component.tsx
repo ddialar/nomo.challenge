@@ -19,7 +19,7 @@ interface Props {
 }
 
 export const ListItem: FC<Props> = ({ publication }) => {
-  const { publicationDate } = usePublicationDate(publication.created)
+  const { publicationDate } = usePublicationDate(publication.created * 1000) // The publication date is provided in seconds
 
   return (
     <ListItemStyled>
