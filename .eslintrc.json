@@ -50,6 +50,7 @@
         "ignoreRestSiblings": true
       }
     ],
-    "no-lone-blocks": 0
+    "no-lone-blocks": 0,
+    "testing-library/prefer-screen-queries": 0
   }
 }
