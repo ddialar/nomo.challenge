@@ -49,6 +49,7 @@
         "args": "none",
         "ignoreRestSiblings": true
       }
-    ]
+    ],
+    "no-lone-blocks": 0
   }
 }

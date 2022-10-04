@@ -5,6 +5,9 @@
       "@components": [
         "src/components"
       ],
+      "@fixtures": [
+        "src/fixtures/data"
+      ],
       "@layouts": [
         "src/layouts"
       ],
