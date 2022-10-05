@@ -1,6 +1,6 @@
 import type { ComponentProps } from 'react'
 import { render } from '@testing-library/react'
-import { ListComponent } from '../ListComponent.component'
+import { ListComponent } from './ListComponent.component'
 import { getTopSubredditFixture } from '@fixtures'
 import '@testing-library/jest-dom'
 
