@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 export const ListItemStyled = styled.li`
-  width: 640px;
+  width: 675px;
   margin-bottom: 1rem;
   padding: 1rem;
   list-style: none;
   background-color: white;
   border: 1px solid #b0b0b0;
   border-radius: 5px;
+  box-sizing: border-box;
 `
 
 export const Link = styled.a`
@@ -55,9 +56,6 @@ export const MetadataContainer = styled.div`
   display: flex;
   font-size: smaller;
   color: #878a8c;
-/* 
-  & span {
-  } */
 `
 
 export const Author = styled.div`
