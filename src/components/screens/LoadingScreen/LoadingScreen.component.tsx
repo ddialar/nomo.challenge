@@ -1,6 +1,6 @@
-import { LoadingScreenStyled } from './LoadingScreen.styled'
+import { ScreenStyled } from '../Screen.styled'
 
 export const LoadingScreen = () =>
-  <LoadingScreenStyled>
+  <ScreenStyled>
     <div aria-label='loading screen'>Loading...</div>
-  </LoadingScreenStyled>
+  </ScreenStyled>

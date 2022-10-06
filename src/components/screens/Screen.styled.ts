@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const LoadingScreenStyled = styled.section`
+export const ScreenStyled = styled.section`
   display: flex;
   justify-content: center;
   width: 100%;
