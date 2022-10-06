@@ -9,12 +9,21 @@ export const ListItemStyled = styled.li`
   border: 1px solid #b0b0b0;
   border-radius: 5px;
   box-sizing: border-box;
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    box-sizing: border-box;
+  }
 `
 
 export const Link = styled.a`
   display: flex;
   color: #222222;
   text-decoration: none;
+
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
 `
 
 export const ThumbnailContainer = styled.div`
@@ -29,12 +38,22 @@ export const ThumbnailContainer = styled.div`
   & img {
     width: 100%;
   }
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    margin-top: 1rem;
+    order: 2;
+  }
 `
 
 export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+
+  @media screen and (max-width: 1024px) {
+    order: 1;
+  }
 `
 
 export const Date = styled.p`
@@ -56,19 +75,40 @@ export const MetadataContainer = styled.div`
   display: flex;
   font-size: smaller;
   color: #878a8c;
+
+  @media screen and (max-width: 1024px) {
+    flex-wrap: wrap;
+  }
 `
 
 export const Author = styled.div`
   width: 50%;
   text-align: left;
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    margin-bottom: .5rem;
+    flex-grow: 2;
+  }
 `
 
 export const Score = styled.div`
   width: 25%;
   text-align: right;
+
+  @media screen and (max-width: 1024px) {
+    width: 50%;
+    flex-grow: 1;
+    text-align: left;
+  }
 `
 
 export const Comments = styled.div`
   width: 25%;
   text-align: right;
+
+  @media screen and (max-width: 1024px) {
+    width: 50%;
+    flex-grow: 1;
+  }
 `
