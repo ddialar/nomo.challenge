@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ContainerLayoutStyles } from 'src/layouts/ContainerLayoutStyles'
+import { ContainerLayoutStyles } from '@layouts'
 
 export const FooterStyled = styled.footer`
   display: flex;
