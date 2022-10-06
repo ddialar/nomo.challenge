@@ -1,5 +1,6 @@
 import type { FC, ReactNode } from 'react'
-import { PageLayoutStyled } from './PageLayout.styled'
+import { NomoLogo } from '@components'
+import { PageLayoutStyled, LogoContainer } from './PageLayout.styled'
 import { Header, Main, Footer } from './components'
 
 interface Props {
@@ -10,7 +11,7 @@ export const PageLayout: FC<Props> = ({ children }) => {
   return (
     <PageLayoutStyled>
       <Header>
-        Hello Header
+        <LogoContainer><NomoLogo /></LogoContainer><span>Senior FrontEnd Position Challenge</span>
       </Header>
       <Main>
         {children}
