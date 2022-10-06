@@ -1,6 +1,5 @@
 import type { FC, ReactNode } from 'react'
-import { MainLayout } from '@layouts'
-import { FooterStyled } from './Footer.styled'
+import { FooterStyled, FooterContainer } from './Footer.styled'
 
 interface Props {
   children: ReactNode
@@ -8,7 +7,7 @@ interface Props {
 
 export const Footer: FC<Props> = ({ children }) =>
   <FooterStyled>
-    <MainLayout>
+    <FooterContainer>
       {children}
-    </MainLayout>
+    </FooterContainer>
   </FooterStyled>

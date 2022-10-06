@@ -1,6 +1,6 @@
 import type { FC, ReactNode } from 'react'
 import { NomoLogo } from '@components'
-import { PageLayoutStyled, LogoContainer } from './PageLayout.styled'
+import { PageLayoutStyled, LogoContainer, LinkToPersonalProfile } from './PageLayout.styled'
 import { Header, Main, Footer } from './components'
 
 interface Props {
@@ -17,7 +17,13 @@ export const PageLayout: FC<Props> = ({ children }) => {
         {children}
       </Main>
       <Footer>
-        Footer
+        <span>Challenge done by</span>
+        <LinkToPersonalProfile
+          href='https://linkedin.com/in/ddialar'
+          target='_blank'
+        >
+          Dailos Rafael Díaz Lara
+        </LinkToPersonalProfile>
       </Footer>
     </PageLayoutStyled>
   )
